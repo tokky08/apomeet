@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アポミート - マッチングアプリ代行サービス | 1アポ確約・返金保証</title>
+    <meta name="description" content="忙しいあなたに代わってマッチングアプリを完全代行。プロフィール作成からアポ確定まで全てお任せ。1アポ確約・全額返金保証付き。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>アポミート</h1>
+                    <span class="tagline">マッチングアプリ代行</span>
+                </div>
+                <button class="cta-button-header" onclick="scrollToContact()">今すぐ相談</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h2 class="hero-title">
+                        忙しいあなたに代わって<br>
+                        <span class="highlight">確実に1アポ</span>をお約束
+                    </h2>
+                    <p class="hero-subtitle">
+                        マッチングアプリの面倒な作業を全て代行。<br>
+                        プロフィール作成からメッセージのやり取り、アポ確定まで完全サポート。
+                    </p>
+                    <div class="guarantee-badge">
+                        <span class="badge-icon">✓</span>
+                        <span class="badge-text">1アポ確約・全額返金保証</span>
+                    </div>
+                    <button class="cta-button-main" onclick="scrollToContact()">
+                        無料相談を始める
+                    </button>
+                    <p class="hero-note">※ご相談は完全無料です</p>
+                </div>
+                <div class="hero-image">
+                    <div class="success-showcase">
+                        <div class="stats-card">
+                            <div class="stat-item">
+                                <div class="stat-number">98%</div>
+                                <div class="stat-label">アポ成功率</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">7日</div>
+                                <div class="stat-label">アポ確定までの平均所要日数</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">成功実績</div>
+                            </div>
+                        </div>
+                        <div class="message-flow">
+                            <div class="message-step">
+                                <div class="message-avatar female"></div>
+                                <div class="message-bubble incoming">
+                                    こんにちは！プロフィール拝見させていただきました✨
+                                </div>
+                            </div>
+                            <div class="message-step">
+                                <div class="message-bubble outgoing">
+                                    ありがとうございます！〇〇さんも素敵ですね。今度お時間あるときにお食事でもいかがですか？
+                                </div>
+                                <div class="message-avatar male"></div>
+                            </div>
+                            <div class="message-step">
+                                <div class="message-avatar female"></div>
+                                <div class="message-bubble incoming">
+                                    ぜひお願いします！来週の土曜日はいかがですか？
+                                </div>
+                            </div>
+                            <div class="success-indicator">
+                                <div class="checkmark">✓</div>
+                                <div class="success-text">アポ確定！</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="problems">
+            <div class="container">
+                <h2 class="section-title">こんなお悩みありませんか？</h2>
+                <div class="problems-grid">
+                    <div class="problem-item">
+                        <div class="problem-icon">😵</div>
+                        <h3>そもそもマッチしない</h3>
+                        <p>プロフィールを作っても「いいね」が来ない、マッチ数が少ない</p>
+                    </div>
+                    <div class="problem-item">
+                        <div class="problem-icon">💼</div>
+                        <h3>忙しくて時間がない</h3>
+                        <p>仕事が忙しくてアプリを開く時間がない、メッセージを考えるのが面倒</p>
+                    </div>
+                    <div class="problem-item">
+                        <div class="problem-icon">💭</div>
+                        <h3>何を話せばいいか分からない</h3>
+                        <p>メッセージが続かない、会話からアポに繋げる方法が分からない</p>
+                    </div>
+                    <div class="problem-item">
+                        <div class="problem-icon">📱</div>
+                        <h3>アプリの使い方が分からない</h3>
+                        <p>機能が多すぎて何をすればいいか分からない、効率的な使い方が分からない</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solution">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="highlight">アポミート</span>が全て解決します
+                </h2>
+                <div class="solution-content">
+                    <div class="solution-text">
+                        <h3>あなたは当日会いに行くだけ</h3>
+                        <p>面倒な作業は全て私たちが代行。プロフィール作成からメッセージのやり取り、アポの確定まで完全サポートします。</p>
+
+                        <div class="features-list">
+                            <div class="feature">
+                                <span class="feature-icon">✓</span>
+                                <span>魅力的なプロフィール作成（写真加工含む）</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">✓</span>
+                                <span>戦略的なアプリ運用でマッチ率アップ</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">✓</span>
+                                <span>プロのメッセージでアポ確定</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">✓</span>
+                                <span>当日の待ち合わせまで完全代行</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-visual">
+                        <div class="flow-diagram">
+                            <div class="flow-step">
+                                <div class="step-number">1</div>
+                                <div class="step-text">ヒアリング</div>
+                            </div>
+                            <div class="arrow">→</div>
+                            <div class="flow-step">
+                                <div class="step-number">2</div>
+                                <div class="step-text">代行開始</div>
+                            </div>
+                            <div class="arrow">→</div>
+                            <div class="flow-step">
+                                <div class="step-number">3</div>
+                                <div class="step-text">アポ確定</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="guarantee">
+            <div class="container">
+                <div class="guarantee-card">
+                    <h2 class="guarantee-title">
+                        <span class="guarantee-icon">🛡️</span>
+                        安心の品質保証
+                    </h2>
+                    <div class="guarantee-content">
+                        <div class="guarantee-item">
+                            <h3>1アポ確約</h3>
+                            <p>必ず1人以上の女性とのアポをお約束します</p>
+                        </div>
+                        <div class="guarantee-item">
+                            <h3>全額返金保証</h3>
+                            <p>万が一1人も会えなかった場合は代行料金を全額返金</p>
+                        </div>
+                        <div class="guarantee-item">
+                            <h3>透明性のある料金</h3>
+                            <p>アプリ利用料・ブースト代はお客様負担で明確会計</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <div class="container">
+                <h2 class="section-title">サービスの流れ</h2>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-header">
+                            <div class="step-number">STEP 1</div>
+                            <h3>ヒアリング</h3>
+                        </div>
+                        <div class="step-content">
+                            <ul>
+                                <li>写真のご提供</li>
+                                <li>基本情報（身長・体重・出身・趣味・仕事）</li>
+                                <li>理想の女性像（タイプ・系統・身長など）</li>
+                                <li>アポ希望（日程・時間・場所・お店）</li>
+                            </ul>
+                            <div class="note">
+                                ※写真はプロが加工してより魅力的に仕上げます
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <div class="step-number">STEP 2</div>
+                            <h3>アプリセットアップ</h3>
+                        </div>
+                        <div class="step-content">
+                            <ul>
+                                <li>アカウント新規作成（お客様）</li>
+                                <li>本人確認・有料会員登録</li>
+                                <li>ブーストオプション購入</li>
+                                <li>当社による代行ログイン開始</li>
+                            </ul>
+                            <div class="cost-info">
+                                <strong>必要費用：</strong>有料会員4,100円 + ブースト2,560円
+                                <p>*アプリ利用タイミングによっては異なる可能性があります</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <div class="step-number">STEP 3</div>
+                            <h3>完全代行運用</h3>
+                        </div>
+                        <div class="step-content">
+                            <ul>
+                                <li>魅力的なプロフィール作成</li>
+                                <li>戦略的なアプリ運用</li>
+                                <li>プロのメッセージでアポ確定</li>
+                                <li>当日の待ち合わせまでサポート</li>
+                            </ul>
+                            <div class="highlight-box">
+                                <strong>お客様は当日会いに行くだけ！</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <h2 class="section-title">料金プラン</h2>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>完全代行プラン</h3>
+                        <div class="limited-offer-banner">
+                            <span class="urgent-badge">🔥 先着1名限定 🔥</span>
+                        </div>
+                        <div class="price">
+                            <div class="price-original">
+                                <span class="price-crossed">通常料金 50,000円</span>
+                            </div>
+                            <div class="price-special">
+                                <span class="price-amount">9,800円</span>
+                                <span class="price-unit">モニター料金</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>プロフィール作成・写真加工</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>1ヶ月間の完全代行運用</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>1アポ確約保証</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>全額返金保証</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>LINE移行サポート</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check">✓</span>
+                            <span>ドタキャン防止アドバイス</span>
+                        </div>
+                    </div>
+
+                    <div class="monitor-notice">
+                        <h4>モニター料金について</h4>
+                        <p>※サービス利用後にご感想をお伺いさせていただきます</p>
+                    </div>
+
+                    <div class="additional-costs">
+                        <h4>別途必要費用（お客様負担）</h4>
+                        <div class="cost-item">
+                            <span>有料会員（1ヶ月）</span>
+                            <span>4,100円</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>ブーストオプション</span>
+                            <span>2,560円</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">お客様の声</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">「仕事が忙しくて全然時間がなかったのに、本当に素敵な女性と会うことができました。プロの技術に驚きです。」</p>
+                        <div class="testimonial-author">- T様（32歳・エンジニア）</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">「自分でやってた時は全然マッチしなかったのに、代行してもらったら1週間で3人とマッチ。メッセージの上手さが段違いでした。」</p>
+                        <div class="testimonial-author">- K様（28歳・営業）</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">「何を話せばいいか分からなかったのが解決。当日まで完全にお任せできて、ストレスフリーでした。」</p>
+                        <div class="testimonial-author">- S様（35歳・コンサルタント）</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h2 class="section-title">よくある質問</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            本当に1アポ確約できるのですか？
+                            <span class="faq-arrow">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>はい、必ず1人以上の女性とのアポをお約束します。万が一1人も会えなかった場合は、代行料金を全額返金いたします。ただし、マッチングアプリの特性上、お客様の写真によってはお受けできない場合がございます。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            どのくらいの期間で結果が出ますか？
+                            <span class="faq-arrow">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>通常1〜2週間程度でアポが確定します。アプリ開始初期がボーナスタイムなので、新規アカウントで効率的に進めます。アポの日程は開始から1〜2週間後が最も成功率が高いです。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            バレる心配はありませんか？
+                            <span class="faq-arrow">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>お客様の情報や写真を基に自然なプロフィールを作成し、お客様らしいメッセージを心がけています。アポ当日は事前に相手の特徴をお伝えするので、自然な出会いとして進められます。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            費用はどのくらいかかりますか？
+                            <span class="faq-arrow">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>代行料金は個別にご相談させていただきます。別途、有料会員費4,100円とブーストオプション2,560円をお客様にご負担いただきます。料金は明朗会計で、追加費用は一切ありません。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-card">
+                    <h2>今すぐ始めませんか？</h2>
+                    <p>忙しいあなたの代わりに、確実に素敵な出会いをお届けします</p>
+                    <button class="cta-button-final" onclick="scrollToContact()">
+                        無料相談を申し込む
+                    </button>
+                    <div class="cta-guarantee">
+                        <span class="guarantee-icon">🛡️</span>
+                        <span>1アポ確約・全額返金保証付き</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">お問い合わせ</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>まずは無料相談から</h3>
+                        <p>あなたの状況をお聞かせください。最適なプランをご提案いたします。</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">📧</div>
+                                <div class="method-content">
+                                    <h4>メール</h4>
+                                    <p>apomeet.jp@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">年齢</label>
+                            <select id="age" name="age" required>
+                                <option value="">選択してください</option>
+                                <option value="20-25">20-25歳</option>
+                                <option value="26-30">26-30歳</option>
+                                <option value="31-35">31-35歳</option>
+                                <option value="36-40">36-40歳</option>
+                                <option value="41+">41歳以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="occupation">ご職業</label>
+                            <input type="text" id="occupation" name="occupation" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="experience">マッチングアプリ経験</label>
+                            <select id="experience" name="experience" required>
+                                <option value="">選択してください</option>
+                                <option value="beginner">初心者</option>
+                                <option value="some">少し使ったことがある</option>
+                                <option value="experienced">経験豊富</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">ご要望・ご質問</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="どのような女性と出会いたいか、ご不明点など自由にお書きください"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            無料相談を申し込む
+                        </button>
+                        <p class="form-note">※24時間以内にご返信いたします</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>アポミート</h3>
+                    <p>マッチングアプリ代行のプロフェッショナル</p>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html">プライバシーポリシー</a>
+                    <a href="terms.html">利用規約</a>
+                    <a href="#contact">お問い合わせ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 アポミート. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
