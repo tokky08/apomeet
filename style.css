@@ -1243,14 +1243,6 @@ body {
     z-index: 10;
 }
 
-.floating-icon {
-    width: 120px;
-    height: 120px;
-    opacity: 0.9;
-    animation: float 6s ease-in-out infinite;
-    filter: drop-shadow(0 10px 20px rgba(255, 107, 107, 0.3));
-}
-
 @keyframes float {
     0%, 100% {
         transform: translateY(0px) rotate(0deg);
