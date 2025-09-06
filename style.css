@@ -1274,3 +1274,123 @@ body {
 .footer-text h3 {
     margin: 0;
 }
+
+/* LINE Contact Styles */
+.quick-contact {
+    margin: 30px 0;
+}
+
+.line-button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: linear-gradient(135deg, #06c755, #00b04f);
+    color: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(6, 199, 85, 0.3);
+    border: none;
+    width: 100%;
+    max-width: 300px;
+}
+
+.line-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(6, 199, 85, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.line-icon {
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 50%;
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.line-title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.line-subtitle {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.form-divider {
+    text-align: center;
+    margin: 30px 0 20px;
+    position: relative;
+}
+
+.form-divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #ddd;
+    z-index: 1;
+}
+
+.form-divider span {
+    background: white;
+    padding: 0 20px;
+    color: #666;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+}
+
+.line-contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #06c755, #00b04f);
+    color: white;
+    padding: 18px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(6, 199, 85, 0.3);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.line-contact-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(6, 199, 85, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.line-icon-large {
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    min-width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
