@@ -640,7 +640,7 @@ body {
 
 .price-crossed {
     text-decoration: line-through;
-    color: #666;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
 }
